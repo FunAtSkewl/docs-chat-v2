@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAeFBMVEUAhvn////7//8AZ9kagvnX6v4Ag/kAf/mpz/zF2/3f7/4nhvnN4/0gifk9l/qJvfxlpvrl8/4Aeuu52f0AX9cAYti80PMocdwjbtySwvwukvmYx/zT5v3A3f16uPvw+P4Ad/kAe/k1dt0AcfkAdOo0ge9Mm/pmrPtLfb/AAAACnElEQVR4nO3dXW/aMBSA4YTwkYYRygrbKC3Qrd3+/z8cmqZt6oVjH9vHx9P73lZV8sj4RLKCaFpn25cmZ92tw9c79z341zj/uviW1fIL0+0/f1LBjHMFTDqNE7O45rX8xiTTODHnlQ4mlcaFmY1LJUy3/5JiCrgwl01my19MmrVxYYbM2/9fzG1Cx2tcmIUmJoXGDqY7RH/SDGFuUyBSYwkTPQVMYWI1tjCRGmOYOI01TNQUMIeJWRt7mIjnjUGMXGMRI943JjFSjU2McAoYxcg0VjEijVmMZN/YxQg0hjHhzxvLmGCNaUyoxjYmcN8Yx4RNaOuYII15TIjGPiZAUwHGfwrUgPFemyowvs+bOjCemkow3cFn39SC8ZoC1WB8pkA9GA9NRZhpTU2YyX1TFabbd05NWczH0F7fBrOY8OYLMGCyBwaMQmDAKAQGjEJgwCgEBoxCYMAoBAaMQmC8MPNV8iYvmQ1zvEvesRRm8+z4Z2HPE99zy4ZZP7SzxLUPazBgwIABA+YPJnnFME2/GxK36ycumQ+zzlAxTIHAgFEIDBiFwIBRCAwYhfJhlhkqhnkck/dYDHN6+pC4p1MpDGfNhg80wIABAwaMLcx/9dBszn3yzhOXzIfZZKgYpkBgwCgEBoxCYMAoBAaMQhnPmiNe+RX+GEQ+zPd7eaMxzKbfyTvJlsbkK1qz3h5GfnQBBgwYMGDA5DxrNof5cdyKuzeGiXlFQyTJi9EPDBiFwIBRCAwYhcCAUQgMGIXAgFEIDBiFwIBRCAwYhcCAUQgMGIXAgFEIDBiFwIBRSIwZLGKkvw14mfoGaIE2FyGmHcUvH+VqObru14nZrkrf/PtWWzFmuJa++fddXVvGjWlHYyNg7vyUTWCsLY17YdqfunOai7TgKxYAAAAASUVORK5CYII=" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Docs Chat v2</title>
+    <script type="module" crossorigin src="/assets/index.bd0c5a53.js"></script>
+    <link rel="stylesheet" href="/assets/index.9de91270.css">
+  </head>
+  <body>
+    <div id="app">
+
+      <div id="messages">
+        <ul id="messageList">
+      
+        </ul>
+      </div>
+      <textarea id="text">Enter to send a message</textarea>
+
+      <ul id="info">
+        <li id="active"></li>
+        <li id="channel"></li>
+        <li id="tips">use '/join channel' to join a different channel</li>
+        <li>use '/msg name message' to private message someone</li>
+
+        <li class="admin" id="commands">/exec | /clear | /toggleShowPlace | /edit place new | /remove place | /toggleMute name </li>
+        <li class="admin" id="muted">Muted Names: </li>
+
+      </ul>
+
+    </div>
+    
+  </body>
+</html>
